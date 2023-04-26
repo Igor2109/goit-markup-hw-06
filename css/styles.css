@@ -768,3 +768,48 @@ body {
 .modal-icon {
   fill: currentColor;
 }
+
+.form {
+  position: relative;
+  padding-top: 48px;
+}
+.form-head-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-head {
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--navy-blue-clr);
+}
+.form-container {
+  
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.form-label {
+ margin-top: 8px;
+ text-align: center;
+}
+.form-input {
+  height: 40px;
+  width: 100%;
+} 
+.form-icon {
+  position: absolute;
+  left: 16px;
+ 
+}
+.form-comment {
+  width: 100%;
+}
+
+.btn-color {
+}
