@@ -771,7 +771,7 @@ body {
 
 .form {
   position: relative;
-  padding-top: 48px;
+  margin-top: 72px;
 }
 .form-head-container {
   display: flex;
@@ -808,13 +808,13 @@ color: var(--navy-blue-clr);
   padding: 0 38px;
   border: 1px solid rgba(46, 47, 66, 0.4);
 border-radius: 4px;
-color: var(--navy-blue-modal-clr);
-outline: 2px solid transparent;
-outline-offset: -2px;
+/* outline: 2px solid transparent;
+outline-offset: -2px; */
+/* border-color: var(--navy-blue-modal-clr); */
 } 
-.form-input :focus {
-  outline: var(--iris-clr);
-  color: var(--main-txt-clr);
+.form-input:focus {
+  border-color: var(--iris-clr);
+  color: var(--iris-clr);
 }
 .form-icon {
   position: absolute;
@@ -824,7 +824,7 @@ outline-offset: -2px;
 pointer-events: none;
   fill: var(--navy-blue-clr);
 }
-.form-input :focus ~ .form-icon {
+.form-input:focus ~ .form-icon {
 fill: var(--iris-clr);
 }
 .form-comment {
@@ -834,7 +834,7 @@ fill: var(--iris-clr);
   margin-bottom: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
 border-radius: 4px;
-color: var(--navy-blue-modal-clr);
+
 }
 
 .btn-color {
