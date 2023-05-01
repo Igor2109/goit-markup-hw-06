@@ -690,6 +690,49 @@ body {
 .footer-social-link:focus {
   background-color: var(--green-clr);
 }
+.subscribe {
+  margin-left: 80px;
+}
+.footer-subscribe {
+  display: flex;
+}
+.footer-text {
+  margin-right: 24px;
+  width: 264px;
+  height: 40px;
+  border: 1px solid #FFFFFF;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+background-color: transparent;
+outline: none;
+color: var(--white-clr);
+}
+input::placeholder {
+  font-size: 12px;
+line-height: 1.5;
+  color: var(--white-clr);
+  padding: 8px 16px;
+
+}
+.subscribe-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white-clr);
+  cursor: pointer;
+  background-color: var(--iris-clr);
+  min-width: 165px;
+  min-height: 40px;
+  margin: 0 auto;
+  display: block;
+  border: none;
+  border-radius: 4px;
+
+  transition: background-color var(--anim-fast), box-shadow var(--anim-fast);
+ 
+}
 /**
   |============================
   | Modal Styles
@@ -835,6 +878,7 @@ body {
   border-radius: 4px;
   outline: none;
   transition: var(--anim-fast);
+  resize: none;
 }
 .form-comment::placeholder {
   font-size: 12px;
@@ -862,12 +906,13 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 0;
-
+  
+  
   transition: var(--anim-fast);
   cursor: pointer;
 }
 .accept-box:checked {
-  background: var(--ocean-clr);
+  background-color: var(--ocean-clr);
   border-color: var(--ocean-clr);
   background-size: 10px;
 }
@@ -881,6 +926,9 @@ body {
   padding-top: 24px;
 }
 .vector {
+}
+.accept-link {
+  color: var(--iris-clr);
 }
 .btn-color {
 }
