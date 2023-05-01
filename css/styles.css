@@ -719,18 +719,22 @@ line-height: 1.5;
 
 }
 .subscribe-btn {
-  font-family: "Roboto", sans-serif;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--white-clr);
-  cursor: pointer;
+  
   background-color: var(--iris-clr);
   min-width: 165px;
   min-height: 40px;
   margin: 0 auto;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  cursor: pointer;
   border: none;
   border-radius: 4px;
 
