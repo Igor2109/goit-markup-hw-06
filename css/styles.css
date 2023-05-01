@@ -697,6 +697,9 @@ body {
   display: flex;
 }
 .footer-text {
+  font-size: 12px;
+line-height: 1.5;
+letter-spacing: 0.02em;
   margin-right: 24px;
   width: 264px;
   height: 40px;
@@ -706,12 +709,13 @@ border-radius: 4px;
 background-color: transparent;
 outline: none;
 color: var(--white-clr);
+padding-left: 16px;
 }
 input::placeholder {
   font-size: 12px;
 line-height: 1.5;
   color: var(--white-clr);
-  padding: 8px 16px;
+  /* padding: 8px 16px; */
 
 }
 .subscribe-btn {
@@ -733,6 +737,9 @@ line-height: 1.5;
   transition: background-color var(--anim-fast), box-shadow var(--anim-fast);
  
 }
+.subscribe-icon {
+  fill: currentColor;
+}
 /**
   |============================
   | Modal Styles
@@ -746,6 +753,7 @@ line-height: 1.5;
   width: 100%;
   height: 100%;
   background: var(--modal-bcg);
+  
 
   opacity: 1;
   visibility: visible;
@@ -769,7 +777,7 @@ line-height: 1.5;
   width: 408px;
   min-height: 576px;
   background-color: var(--dairy-clr);
-  padding: 24px;
+  padding: 72px 24px 24px 24px;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -812,7 +820,7 @@ line-height: 1.5;
 
 .form {
   position: relative;
-  margin-top: 72px;
+  /* margin-top: 72px; */
 }
 .form-head-container {
   display: flex;
