@@ -695,11 +695,14 @@ body {
 .footer-subscribe {
   display: flex;
 }
+.subscribe-label {
+  margin-right: 24px;
+
+}
 .footer-text {
   font-size: 12px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-  margin-right: 24px;
   width: 264px;
   height: 40px;
   border: 1px solid #FFFFFF;
