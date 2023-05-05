@@ -54,11 +54,22 @@
             </li>
           </ul>
         </address>
+
+        <button
+        class="menu-toggle js-open-menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <svg class="" width="" height="">
+          <use href="./images/icons.svg#icon-Vector-1"></use>
+        </svg>
+      </button>
+
       </div>
     </header>
     <main>
       <!-- Hero section -->
-      <section class="hero-bcg section-hero">
+      <!-- <section class="hero-bcg section-hero">
         <div class="hero-container container">
           <h1 class="hero-title hero-header">
             Effective Solutions for Your Business
@@ -67,9 +78,9 @@
             Order Service
           </button>
         </div>
-      </section>
+      </section> -->
       <!-- Section 1 -->
-      <section class="skills" id="Studio">
+      <!-- <section class="skills" id="Studio">
         <div class="container">
           <h2 class="visually-hidden title-hidden">Skills</h2>
           <ul class="skills-list list">
@@ -123,9 +134,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- Section 2 -->
-      <section class="section-bcg-img bcg-img" id="Portfolio">
+      <!-- <section class="section-bcg-img bcg-img" id="Portfolio">
         <div class="container">
           <h2 class="header-work">What are we doing</h2>
           <ul class="img-list list">
@@ -140,9 +151,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- Section 3 -->
-      <section class="bcg-team" id="Contacts">
+      <!-- <section class="bcg-team" id="Contacts">
         <div class="container">
           <h2 class="header-team">Our Team</h2>
           <ul class="img-team list">
@@ -408,9 +419,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- Customers -->
-      <section class="section-custom">
+      <!-- <section class="section-custom">
         <div class="container">
           <h2 class="title">Customers</h2>
           <ul class="clients-list list">
@@ -474,10 +485,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
     <!-- Footer section -->
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container footer-container">
         <div class="left-side">
           <a class="link logo logo-ftr" href="./index.html"
@@ -568,9 +579,10 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
     <!-- Modal Window -->
-    <div class="backdrop is-hidden" data-modal>
+    <!-- <div class="backdrop is-hidden" data-modal>
+
       <div class="modal">
         <button class="modal-btn" type="button" data-modal-close>
           <svg class="modal-icon" width="8" height="8">
@@ -630,7 +642,105 @@
           <button class="btn-color" type="submit">Send</button>
         </form>
       </div>
+    </div> -->
+
+    <!-- Mobile menu -->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu">
+        <li>
+          <a href="" class="link">About</a>
+        </li>
+        <li>
+          <a href="" class="link">Products</a>
+        </li>
+        <li>
+          <a href="" class="link">Contacts</a>
+        </li>
+        
+      </ul>
+
+      <ul class="mobile-contacts">
+        <li>
+          <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+        </li>
+        <li>
+          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+      </ul>
+
+      <ul class="social list">
+        <li class="social-item">
+          <a
+            class="social-link link"
+            href="http/instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="icon-instagram"
+          >
+            <svg class="team-icon" width="16" height="16">
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-item">
+          <a
+            class="social-link link"
+            href="http/twitter.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="icon-twitter"
+          >
+            <svg class="team-icon" width="16" height="16">
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-item">
+          <a
+            class="social-link link"
+            href="http/facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="icon-facebook"
+          >
+            <svg class="team-icon" width="16" height="16">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-item">
+          <a
+            class="social-link link"
+            href="http/linkedin.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="icon-linkedin"
+          >
+            <svg class="team-icon" width="16" height="16">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
     </div>
+
+
     <script src="./js/modal.js"></script>
   </body>
 </html>
